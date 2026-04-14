@@ -1,21 +1,25 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<header>💗 Nosso Cantinho 💗</header>
-
-<nav>
-  <button onclick="mostrarSecao('inicio')">Início</button>
-  <button onclick="mostrarSecao('importancia')">Importância</button>
-  <button onclick="mostrarSecao('linha')">Linha do Tempo</button>
-  <button onclick="mostrarSecao('galeria')">Galeria</button>
-  <button onclick="mostrarSecao('surpresa')">Surpresa</button>
-</nav>
+<head>
+  <meta charset="UTF-8">
+  <title>Nosso Cantinho</title>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>💗 Nosso Cantinho 💗</header>
 
   <!-- Menu de navegação -->
   <nav>
     <button onclick="mostrarSecao('inicio')">Início</button>
     <button onclick="mostrarSecao('importancia')">Importância</button>
     <button onclick="mostrarSecao('linha')">Linha do Tempo</button>
-    <button lass="secao ativa">
+    <button onclick="mostrarSecao('galeria')">Galeria</button>
+    <button onclick="mostrarSecao('surpresa')">Surpresa</button>
+  </nav>
+
+  <!-- Seções -->
+  <section id="inicio" class="secao ativa">
     <h2>Por que fiz este site</h2>
     <p>Eu queria criar um espaço só nosso, para guardar palavras, momentos e sentimentos...</p>
     <img src="images/foto1.jpg" alt="Foto dela">
