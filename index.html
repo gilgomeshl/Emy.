@@ -64,6 +64,23 @@
       <img src="images/foto3.jpg" alt="Foto dela">
       <img src="images/foto4.jpg" alt="Foto dela">
       <!-- Adicione mais fotos -->
+      <section id="galeria" class="secao">
+  <h2>Momentos</h2>
+  <div class="galeria">
+    <img src="images/foto3.jpg" alt="Foto dela" onclick="abrirLightbox(0)">
+    <img src="images/foto4.jpg" alt="Foto dela" onclick="abrirLightbox(1)">
+    <img src="images/foto5.jpg" alt="Foto dela" onclick="abrirLightbox(2)">
+    <!-- Adicione mais fotos -->
+  </div>
+</section>
+
+<!-- Lightbox com carrossel e slideshow -->
+<div id="lightbox" class="lightbox">
+  <span class="fechar" onclick="fecharLightbox()">&times;</span>
+  <span class="prev" onclick="mudarFoto(-1)">&#10094;</span>
+  <img id="lightbox-img" src="" alt="Foto ampliada">
+  <span class="next" onclick="mudarFoto(1)">&#10095;</span>
+</div>
     </div>
   </section>
 
