@@ -1,4 +1,12 @@
-<!DOCTYPE html><body>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Nosso Cantinho</title>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
   <header>💗 Nosso Cantinho 💗</header>
 
   <!-- Navbar -->
@@ -19,13 +27,35 @@
 
   <section id="importancia" class="secao">
     <h2>Por que você é importante</h2>
-    <p>Você mudou minha vida de tantas formas, me inspira e me faz querer ser melhor todos os dias.</p>
+    <p>Você mudou minha vida de tantas formas, me inspira e me faz querer ser melhor todos os dias. Cada detalhe seu é único e precioso.</p>
     <img src="images/foto2.jpg" alt="Foto dela">
   </section>
 
   <section id="linha" class="secao">
     <h2>Nossa Linha do Tempo</h2>
-    <!-- Aqui entram os textos que você já escreveu -->
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-date">08/03</div>
+        <div class="timeline-content">
+          <h3>Boa noite especial</h3>
+          <p>Oiii, vc já dormiu... então deixei pra te escrever agora...  
+          <!-- Texto completo de 08/03 -->
+          </p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-date">11/03</div>
+        <div class="timeline-content">
+          <h3>💗🐶 Minha pedrinha valiosa 🐰💗</h3>
+          <p>Oiiiiii, não sei se vc já dormiu, mas acho que sim...  
+          <!-- Texto completo de 11/03 -->
+          </p>
+        </div>
+      </div>
+
+      <!-- Continue com os outros textos (13/03, 15/03, 16/03, 19/03) -->
+    </div>
   </section>
 
   <section id="galeria" class="secao">
@@ -33,8 +63,19 @@
     <div class="galeria">
       <img src="images/foto3.jpg" alt="Foto dela">
       <img src="images/foto4.jpg" alt="Foto dela">
+      <!-- Adicione mais fotos -->
     </div>
   </section>
+
+  <section id="surpresa" class="secao">
+    <h2>Uma mensagem escondida...</h2>
+    <button onclick="mostrarMensagem()">Clique aqui</button>
+    <p id="mensagem" style="display:none;">💖 Você é única na minha vida 💖</p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
 
   <section id="surpresa" class="secao">
     <h2>Uma mensagem escondida...</h2>
